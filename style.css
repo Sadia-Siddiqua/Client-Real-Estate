@@ -1,0 +1,211 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f8fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #003366;
+    color: #fff;
+    padding: 60px 20px 80px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #cfe2ff;
+    margin-bottom: 30px;
+  }
+  
+  /* Nickley Group Info */
+  .group-info {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    color: #003366;
+    text-align: left;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  }
+  
+  .group-info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #ff9900;
+    border-left: 5px solid #ff9900;
+    padding-left: 12px;
+  }
+  
+  .group-info p {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .group-info .mission {
+    font-style: italic;
+    color: #666;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Sections */
+  .section {
+    margin-bottom: 60px;
+  }
+  
+  h2 {
+    color: #003366;
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+    border-left: 4px solid #ff9900;
+    padding-left: 12px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #003366;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  /* Property Image */
+  .property-img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 25px;
+  }
+  
+  /* Lists */
+  .property-details,
+  .features {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .property-details li,
+  .features li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 1rem;
+  }
+  
+  .features li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #00b894;
+    font-weight: bold;
+  }
+  
+  /* CTA Buttons */
+  .cta {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #000;
+    padding: 12px 26px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta:hover {
+    background-color: #e67e00;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  input,
+  textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #003366;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 51, 102, 0.2);
+  }
+  
+  /* Offer Section Enhancements */
+  .offer-section {
+    text-align: left;
+  }
+  
+  .offer-box {
+    background-color: #fef3e6;
+    border: 1px solid #ffcc99;
+    border-left: 6px solid #ff9900;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-top: 20px;
+  }
+  
+  .offer-box h3 {
+    color: #003366;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+  }
+  
+  .offer-box .price {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .offer-box ul.features li::before {
+    color: #ff9900;
+  }  
